@@ -9,3 +9,7 @@ This bat is to list files in current directory.
 #### Usage
 1. Copy  GetCurrentDirFileList.bat to the directory which you select
 2. Double click to run the bat, the file name list will be output in the FileNameList.txt. After running the bat, it will automatic open the txt.
+
+Output example
+1. test.txt
+2. img.jpg
