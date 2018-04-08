@@ -12,4 +12,4 @@ for /f "delims=\" %%a in ('dir /b /a-d /o-d "%FolderName%\*.*"') do (
 
 
 start "" "%~dp0/FileNameList.txt"
-pause
+REM pause
