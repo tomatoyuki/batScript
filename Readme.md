@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/project.stone-batScript-yellow.svg)](hyperlink)
-[![](http://progress.guoyong.info/bar/10)](hyperlink)
+[![](http://progress.guoyong.info/bar/1?title=progress)](hyperlink)
 ## batScript Description
 The main purpose of this project is to help someone who need some simple batch script to make their life and work efficient.
 
