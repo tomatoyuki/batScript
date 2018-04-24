@@ -5,11 +5,11 @@ set FolderName=%~dp0
 set /a index=0
 echo %~dp0
 for /f "delims=\" %%a in ('dir /b /a-d /o-d "%FolderName%\*.*"') do (
-	set /a index+=1
-	if "%%a" NEQ "GetCurrentDirFileList.bat" echo !index!. %%a >> FileNameList.txt
+	if "%%a" NEQ "GetCurrentDirFileList.bat" (
+ 	set /a index+=1
+ 	echo !index!. %%a >> FileNameList.txt
+	)
 )
-
-
 
 start "" "%~dp0/FileNameList.txt"
 REM pause
